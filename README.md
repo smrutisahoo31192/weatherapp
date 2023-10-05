@@ -45,7 +45,9 @@ DATABASES = {
         'USER': 'your_database_user',
         'PASSWORD': 'your_database_password',
         'HOST': 'localhost',
-        'PORT': '3306',}}
+        'PORT': '3306'
+    }
+}
 ```
 
 ```bash
@@ -75,15 +77,15 @@ Access the application in your web browser at http://127.0.0.1:8000/
 template based URLs:
 
 ```bash
-Home/Login: http://127.0.0.1:8000/
-Sign Up: http://127.0.0.1:8000/signup/
-Search: http://127.0.0.1:8000/search/
+Home/Login: ''
+Sign Up: 'signup/'
+Search: 'search/'
 ```
 
 API based URLs:
 
 ```bash
-API Login: http://127.0.0.1:8000/api/login/
-API Sign Up: http://127.0.0.1:8000/api/signup/
-API Search: http://127.0.0.1:8000/api/search/
+API Login: '/api/login/'
+API Sign Up: 'api/signup/'
+API Search: 'api/search/'
 ```
