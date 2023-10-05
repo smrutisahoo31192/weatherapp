@@ -35,6 +35,19 @@ pip install -r requirements.txt
 
 4. **Set up the database:**
 
+check DB setting in settings.py
+
+```bash
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'your_database_name',
+        'USER': 'your_database_user',
+        'PASSWORD': 'your_database_password',
+        'HOST': 'localhost',
+        'PORT': '3306',}}
+```
+
 ```bash
 python manage.py migrate
 ```
