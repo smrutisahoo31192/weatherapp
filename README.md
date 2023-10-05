@@ -93,6 +93,22 @@ API based URLs:
 
 ```bash
 API Login: '/api/login/'
+request_body -
+{
+    "username": "XYZ",
+    "password": "XYZ"
+}
+
 API Sign Up: 'api/signup/'
+request_body -
+{
+    "username": "XYZ",
+    "password": "XYZ"
+}
+
 API Search: 'api/search/'
+request_body -
+{
+    "location": "Delhi"
+}
 ```
