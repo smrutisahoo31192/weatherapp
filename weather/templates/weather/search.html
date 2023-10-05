@@ -15,7 +15,7 @@
         <button type="submit">Search</button>
     </form>
     {% if weather_data %}
-        <h2>Weather in {{ weather_data.Location.LocalizedName }}, {{ weather_data.Location.AdministrativeArea.LocalizedName }}, {{ weather_data.Location.Country.LocalizedName }}</h2>
+        <h2>Weather Info</h2>
         <p>Temperature: {{ weather_data.Temperature.Imperial.Value }}°F ({{ weather_data.Temperature.Metric.Value }}°C)</p>
         <p>Weather Condition: {{ weather_data.WeatherText }}</p>
     {% endif %}
