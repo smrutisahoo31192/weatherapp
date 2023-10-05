@@ -56,6 +56,10 @@ python manage.py migrate
 
 ```bash
 python manage.py createsuperuser
+
+deafult:
+username - admin
+password - admin
 ```
 
 6. **Start the development server:**
