@@ -64,7 +64,14 @@ username - admin
 password - admin
 ```
 
-6. **Start the development server:**
+6. **Add weatherapi key in settings.py:**
+
+```bash
+# AccuWeather API Key
+ACCUWEATHER_API_KEY = "ABCBCBCBCBBCBCBCBC"
+```
+
+7. **Start the development server:**
 
 ```bash
 python manage.py runserver
@@ -72,7 +79,7 @@ python manage.py runserver
 
 Access the application in your web browser at http://127.0.0.1:8000/
 
-7. **URLs**
+8. **URLs**
 
 template based URLs:
 
